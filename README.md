@@ -11,8 +11,8 @@ TLDR Gameplay: Queen must move horizontally, vertically and diagonally like ches
 More information is available here: https://en.wikipedia.org/wiki/Game_of_the_Amazons
 
 
-<a href=https://www.youtube.com/watch?v=kjSOSeRZVNg>The numberphile video that got me interested in making this game</a>
+https://www.youtube.com/watch?v=kjSOSeRZVNg - The numberphile video that got me interested in making this game
 
-<a href=https://www.youtube.com/watch?v=_1NzUMWeU4c>The man himself explaining the maths of the game</a> 
+https://www.youtube.com/watch?v=_1NzUMWeU4c_ - The man himself explaining the maths of the game
 
 
