@@ -1,0 +1,37 @@
+body {
+    background: #121314;
+}
+
+.container, .container-fluid {
+    background: #bbbcdd;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: solid 1px black;
+    background: white;
+}
+
+.shaded {
+    background: #d8d897;
+}
+
+/* todo */
+
+.board .black {
+
+}
+
+.board .white {
+
+}
+
+.board .burnt {
+
+}
