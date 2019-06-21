@@ -15,14 +15,20 @@ body {
     height: 50px;
     display: inline-block;
     border: solid 1px black;
-    background: white;
+    background-image: url('/woodLight.png');
+    background-size: 110%;
 }
 
 .shaded {
-    background: #d8d897;
+    background-image: url('/woodDark.png');
+    background-size: 110%;
 }
 
 /* todo */
+
+.selected {
+
+}
 
 .board .black {
 
@@ -34,4 +40,12 @@ body {
 
 .board .burnt {
 
+}
+
+
+/* Something like this to style SVGs*/
+tbc {
+    fill: red;
+    stroke: blue;
+    stroke-width: 2px;
 }

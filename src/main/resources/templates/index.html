@@ -11,15 +11,17 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-3">
             <p>Some information</p>
             <p>Some buttons</p>
         </div>
 
-        <div class="col-sm-8">
+        <!-- 50 to be kept in sync with the width of a cell in the css -->
+        <div class="col-sm-9" th:style="${'min-width:' + 50 * width}">
             <div class="row" th:each="i: ${#numbers.sequence(1, height)}">
                 <span th:class="(${i} + ${j} ) % 2 == 0 ? 'cell shaded' : 'cell'"
-                      th:each="j: ${#numbers.sequence(1, width)}">&nbsp;</span>
+                      th:each="j: ${#numbers.sequence(1, width)}"
+                      th:data-i="${i}-1" th:data-j="${j}-1">&nbsp;</span>
             </div>
         </div>
     </div>
